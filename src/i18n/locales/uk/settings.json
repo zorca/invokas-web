@@ -1,0 +1,97 @@
+{
+  "title": "Налаштування",
+  "tabs": {
+    "requisites": "Реквізити",
+    "numbering": "Нумерація",
+    "amounts": "Суми",
+    "language": "Мова",
+    "data": "Дані"
+  },
+  "requisites": {
+    "description": "Відображаються в кожному рахунку.",
+    "companyName": "Назва компанії",
+    "companyNamePlaceholder": "Назва вашого бізнесу",
+    "businessType": "Вид діяльності",
+    "businessTypePlaceholder": "Виберіть тип…",
+    "selfEmploymentId": "Номер самозайнятості",
+    "selfEmploymentIdPlaceholder": "Напр. 1234567",
+    "selfEmploymentIdHint": "Необов'язково — вкажіть, якщо є.",
+    "vatPayer": "Платник ПДВ",
+    "vatPayerHint": "Увімкніть, якщо ви платник ПДВ.",
+    "address": "Адреса",
+    "addressPlaceholder": "Вулиця, місто, поштовий індекс",
+    "taxId": "Податковий код",
+    "taxIdPlaceholder": "ПДВ / податковий код",
+    "personName": "Ім'я, прізвище",
+    "personNamePlaceholder": "Ім'я та прізвище",
+    "personalCode": "Особистий код",
+    "personalCodePlaceholder": "11 цифр",
+    "companyCode": "Код підприємства",
+    "companyCodePlaceholder": "9 цифр",
+    "vatCode": "Код платника ПДВ",
+    "vatCodePlaceholder": "Напр. LT123456789",
+    "bank": "Банк",
+    "bankPlaceholder": "Назва банку",
+    "iban": "IBAN",
+    "ibanPlaceholder": "LT00 0000 0000 0000 0000",
+    "contacts": "Контакти",
+    "contactsPlaceholder": "Ел. пошта, телефон, сайт",
+    "logo": "Логотип",
+    "logoChoose": "Вибрати зображення…",
+    "logoRemove": "Видалити",
+    "logoHint": "Відображається в шапці рахунку. PNG або JPG, до 512 КБ."
+  },
+  "numbering": {
+    "description": "Номери присвоюються один раз і не перевикористовуються.",
+    "maskLabel": "Маска номера",
+    "maskPlaceholder": "INV-{YYYY}-{NNNN}",
+    "maskHelp": "Токени: {YYYY} {YY} {MM} {DD} {NNNN} {N}",
+    "startNumber": "Початковий номер",
+    "previewLabel": "Попередній перегляд наступного номера",
+    "previewEmpty": "Введіть маску, щоб побачити попередній перегляд"
+  },
+  "amounts": {
+    "currency": "Валюта",
+    "defaultDiscount": "Знижка за замовчуванням (%)",
+    "dueDays": "Термін оплати (днів)",
+    "terms": "Умови за замовчуванням",
+    "termsPlaceholder": "Умови оплати в рахунках",
+    "footer": "Підвал",
+    "footerPlaceholder": "Текст у нижній частині PDF"
+  },
+  "language": {
+    "interfaceLanguage": "Мова інтерфейсу",
+    "defaultDocumentLanguage": "Мова документа за замовчуванням",
+    "documentLanguageHint": "Використовується для нових рахунків, коли клієнт не має встановленої мови."
+  },
+  "data": {
+    "backup": "Резервна копія бази даних",
+    "backupHint": "Завантажити резервну копію JSON. Дані зберігаються лише в цьому браузері на цьому пристрої; очищення даних сайту видалить їх. Регулярно зберігайте копії.",
+    "backupAction": "Створити копію…",
+    "restore": "Відновлення",
+    "restoreAction": "Відновити з копії…",
+    "restoreHint": "Замінює дані браузера копією JSON. Спочатку збережіть поточну резервну копію.",
+    "dbPath": "Сховище браузера",
+    "deleteAction": "Видалити базу даних",
+    "deleteTitle": "Видалити базу даних?",
+    "deleteDescription": "Будуть безповоротно видалені всі рахунки, клієнти і налаштування. Програма перезапуститься і покаже первинне налаштування. Цю дію не можна скасувати.",
+    "deleteConfirm": "Видалити"
+  },
+  "onboarding": {
+    "title": "Вітаємо в Invokas",
+    "subtitle": "Кілька швидких кроків для налаштування.",
+    "step1": {
+      "title": "Мова",
+      "description": "Виберіть мову інтерфейсу."
+    },
+    "step2": {
+      "title": "Реквізити",
+      "description": "Вони з'являться в кожному рахунку."
+    },
+    "step3": {
+      "title": "Нумерація",
+      "description": "Як формуються номери рахунків."
+    },
+    "finish": "Почати роботу"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "list": {
+    "title": "Klientai",
+    "searchPlaceholder": "Ieškoti pagal vardą, įmonę arba kodą…",
+    "empty": {
+      "title": "Klientų dar nėra",
+      "description": "Pridėkite pirmąjį klientą, kad galėtumėte išrašyti sąskaitas.",
+      "action": "Naujas klientas"
+    },
+    "emptySearch": {
+      "title": "Nieko nerasta",
+      "description": "Pabandykite kitą vardą arba kodą."
+    },
+    "columns": {
+      "name": "Vardas",
+      "company": "Įmonė",
+      "code": "Kodas",
+      "email": "El. paštas",
+      "language": "Dok. kalba",
+      "invoiceCount": "Sąskaitų",
+      "total": "Suma"
+    },
+    "showArchived": "Rodyti archyvuotus"
+  },
+  "form": {
+    "titleNew": "Naujas klientas",
+    "titleEdit": "Redaguoti klientą",
+    "name": "Vardas",
+    "namePlaceholder": "Visas vardas",
+    "company": "Įmonė",
+    "companyPlaceholder": "Įmonės pavadinimas",
+    "clientType": "Kliento tipas",
+    "typeCompany": "Juridinis asmuo",
+    "typePerson": "Fizinis asmuo",
+    "companyCode": "Įmonės kodas",
+    "companyCodePlaceholder": "123456789",
+    "personalCode": "Asmens kodas",
+    "personalCodePlaceholder": "38601010000",
+    "selfEmploymentId": "Ind. veiklos pažymos Nr.",
+    "selfEmploymentIdPlaceholder": "IV-000000",
+    "vatCode": "PVM mokėtojo kodas",
+    "vatCodePlaceholder": "LT123456789",
+    "email": "El. paštas",
+    "emailPlaceholder": "name@example.com",
+    "phone": "Telefonas",
+    "phonePlaceholder": "+370…",
+    "address": "Adresas",
+    "addressPlaceholder": "Gatvė, miestas, pašto kodas",
+    "country": "Šalis",
+    "currency": "Valiuta",
+    "documentLanguage": "Dokumento kalba",
+    "deleteAction": "Ištrinti klientą",
+    "deleteTitle": "Ištrinti klientą?",
+    "deleteDescription": "{{name}} bus pašalintas iš klientų sąrašo. Sąskaitos liks, bet neteks ryšio su klientu. Šio veiksmo atšaukti negalima.",
+    "deleteLinkedInvoices": "Susietų sąskaitų: {{n}}",
+    "notes": "Pastabos",
+    "notesPlaceholder": "Vidinės pastabos (sąskaitose nerodomos)"
+  }
+}

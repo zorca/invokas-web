@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "invoices": "Рахунки",
+    "clients": "Клієнти",
+    "settings": "Налаштування",
+    "collapse": "Згорнути меню",
+    "expand": "Розгорнути меню"
+  },
+  "actions": {
+    "create": "Створити",
+    "delete": "Видалити",
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "archive": "Архівувати",
+    "restore": "Відновити",
+    "exportPdf": "Експорт у PDF",
+    "exportCsv": "Експорт у CSV",
+    "duplicate": "Дублювати",
+    "back": "Назад",
+    "next": "Далі",
+    "print": "Друк"
+  },
+  "search": {
+    "placeholder": "Пошук…"
+  },
+  "status": {
+    "draft": "Чернетка",
+    "sent": "Виставлено",
+    "paid": "Оплачено",
+    "overdue": "Просрочено",
+    "cancelled": "Скасовано",
+    "pending": "Очікує"
+  },
+  "language": {
+    "interface": "Мова інтерфейсу"
+  },
+  "theme": {
+    "auto": "Авто",
+    "dark": "Темна",
+    "light": "Світла"
+  },
+  "command": {
+    "placeholder": "Введіть команду або шукайте…",
+    "empty": "Нічого не знайдено",
+    "groups": {
+      "actions": "Дії",
+      "navigate": "Перейти"
+    },
+    "createInvoice": "Створити рахунок",
+    "createClient": "Створити клієнта",
+    "goInvoices": "Перейти до рахунків",
+    "goClients": "Перейти до клієнтів",
+    "goSettings": "Перейти до налаштувань",
+    "exportPdf": "Експорт поточного рахунку в PDF",
+    "toggleTheme": "Перемкнути тему",
+    "switchLanguage": "Перемкнути мову"
+  },
+  "errors": {
+    "generic": "Щось пішло не так.",
+    "database": "Не вдалося прочитати базу даних.",
+    "file": "Не вдалося записати файл.",
+    "save": "Не вдалося зберегти. Перевірте значення та спробуйте ще раз.",
+    "required": "Це поле обов'язкове."
+  },
+  "notify": {
+    "saved": "Збережено",
+    "created": "Створено",
+    "deleted": "Видалено",
+    "archived": "Архівовано",
+    "restored": "Відновлено",
+    "exported": "Експортовано"
+  },
+  "statusbar": {
+    "invoices_one": "{{count}} рахунок",
+    "invoices_few": "{{count}} рахунки",
+    "invoices_many": "{{count}} рахунків",
+    "invoices_other": "{{count}} рахунку",
+    "dueToCollect": "До сплати: {{amount}}"
+  },
+  "banner": {
+    "label": "Реклама",
+    "title": "Тут ваша реклама",
+    "price": "Лише 99 € на рік",
+    "cta": "Замовити",
+    "toast": "Дякуємо! Ми з вами зв'яжемося."
+  }
+}

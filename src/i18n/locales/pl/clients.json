@@ -1,0 +1,59 @@
+{
+  "list": {
+    "title": "Klienci",
+    "searchPlaceholder": "Szukaj po nazwie, firmie lub kodzie…",
+    "empty": {
+      "title": "Brak klientów",
+      "description": "Dodaj pierwszego klienta, aby zacząć wystawiać faktury.",
+      "action": "Nowy klient"
+    },
+    "emptySearch": {
+      "title": "Brak wyników",
+      "description": "Spróbuj innej nazwy lub kodu."
+    },
+    "columns": {
+      "name": "Imię",
+      "company": "Firma",
+      "code": "Kod",
+      "email": "E-mail",
+      "language": "Jęz. dok.",
+      "invoiceCount": "Faktury",
+      "total": "Suma"
+    },
+    "showArchived": "Pokaż zarchiwizowane"
+  },
+  "form": {
+    "titleNew": "Nowy klient",
+    "titleEdit": "Edytuj klienta",
+    "name": "Imię",
+    "namePlaceholder": "Pełne imię i nazwisko",
+    "company": "Firma",
+    "companyPlaceholder": "Nazwa firmy",
+    "clientType": "Typ klienta",
+    "typeCompany": "Osoba prawna",
+    "typePerson": "Osoba fizyczna",
+    "companyCode": "Numer firmy",
+    "companyCodePlaceholder": "123456789",
+    "personalCode": "Kod osobowy",
+    "personalCodePlaceholder": "38601010000",
+    "selfEmploymentId": "Numer samozatrudnienia",
+    "selfEmploymentIdPlaceholder": "IV-000000",
+    "vatCode": "Kod podatnika VAT",
+    "vatCodePlaceholder": "LT123456789",
+    "email": "E-mail",
+    "emailPlaceholder": "name@example.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+48…",
+    "address": "Adres",
+    "addressPlaceholder": "Ulica, miasto, kod pocztowy",
+    "country": "Kraj",
+    "currency": "Waluta",
+    "documentLanguage": "Język dokumentu",
+    "deleteAction": "Usuń klienta",
+    "deleteTitle": "Usunąć klienta?",
+    "deleteDescription": "{{name}} zostanie usunięty z listy klientów. Faktury pozostaną, ale stracą powiązanie z klientem. Tej operacji nie można odwrócić.",
+    "deleteLinkedInvoices": "Powiązane faktury: {{n}}",
+    "notes": "Notatki",
+    "notesPlaceholder": "Notatki wewnętrzne (niewidoczne na fakturach)"
+  }
+}

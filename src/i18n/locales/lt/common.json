@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "invoices": "Sąskaitos",
+    "clients": "Klientai",
+    "settings": "Nustatymai",
+    "collapse": "Suskleisti meniu",
+    "expand": "Išskleisti meniu"
+  },
+  "actions": {
+    "create": "Sukurti",
+    "delete": "Ištrinti",
+    "save": "Išsaugoti",
+    "cancel": "Atšaukti",
+    "archive": "Archyvuoti",
+    "restore": "Atkurti",
+    "exportPdf": "Eksportuoti PDF",
+    "exportCsv": "Eksportuoti CSV",
+    "duplicate": "Dubliuoti",
+    "back": "Atgal",
+    "next": "Toliau",
+    "print": "Spausdinti"
+  },
+  "search": {
+    "placeholder": "Ieškoti…"
+  },
+  "status": {
+    "draft": "Juodraštis",
+    "sent": "Išrašyta",
+    "paid": "Apmokėta",
+    "overdue": "Pradelsta",
+    "cancelled": "Atšaukta",
+    "pending": "Laukiama"
+  },
+  "language": {
+    "interface": "Sąsajos kalba"
+  },
+  "theme": {
+    "auto": "Automatinė",
+    "dark": "Tamsi",
+    "light": "Šviesi"
+  },
+  "command": {
+    "placeholder": "Įveskite komandą arba ieškokite…",
+    "empty": "Nieko nerasta",
+    "groups": {
+      "actions": "Veiksmai",
+      "navigate": "Eiti į"
+    },
+    "createInvoice": "Sukurti sąskaitą",
+    "createClient": "Sukurti klientą",
+    "goInvoices": "Eiti į sąskaitas",
+    "goClients": "Eiti į klientus",
+    "goSettings": "Eiti į nustatymus",
+    "exportPdf": "Eksportuoti dabartinę sąskaitą į PDF",
+    "toggleTheme": "Perjungti temą",
+    "switchLanguage": "Perjungti kalbą"
+  },
+  "errors": {
+    "generic": "Kažkas nepavyko.",
+    "database": "Nepavyko nuskaityti duomenų bazės.",
+    "file": "Nepavyko įrašyti failo.",
+    "save": "Nepavyko išsaugoti. Patikrinkite reikšmes ir bandykite dar kartą.",
+    "required": "Šis laukas privalomas."
+  },
+  "notify": {
+    "saved": "Išsaugota",
+    "created": "Sukurta",
+    "deleted": "Ištrinta",
+    "archived": "Archyvuota",
+    "restored": "Atkurta",
+    "exported": "Eksportuota"
+  },
+  "statusbar": {
+    "invoices_one": "{{count}} sąskaita",
+    "invoices_few": "{{count}} sąskaitos",
+    "invoices_other": "{{count}} sąskaitų",
+    "dueToCollect": "Iš viso: {{amount}}"
+  },
+  "banner": {
+    "label": "Reklama",
+    "title": "Jūsų reklama čia",
+    "price": "Tik 99 € per metus",
+    "cta": "Užsakyti",
+    "toast": "Ačiū! Susisieksime su jumis."
+  }
+}

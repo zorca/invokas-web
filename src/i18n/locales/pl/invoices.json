@@ -1,0 +1,78 @@
+{
+  "list": {
+    "title": "Faktury",
+    "searchPlaceholder": "Szukaj po numerze lub kliencie…",
+    "empty": {
+      "title": "Brak faktur",
+      "description": "Utwórz pierwszą faktura — pojawi się tutaj.",
+      "action": "Nowa faktura"
+    },
+    "filter": {
+      "all": "Wszystkie",
+      "draft": "Szkice",
+      "sent": "Wysłane",
+      "paid": "Zapłacone",
+      "overdue": "Zaległe",
+      "cancelled": "Anulowane",
+      "pending": "Oczekujące",
+      "period": "Okres",
+      "periodAll": "Cały czas",
+      "periodMonth": "Ostatnie 30 dni",
+      "periodQuarter": "Ostatnie 3 miesiące",
+      "periodYear": "Ostatnie 12 miesięcy"
+    },
+    "columns": {
+      "number": "Numer",
+      "client": "Klient",
+      "issueDate": "Data",
+      "dueDate": "Termin płatności",
+      "amount": "Suma",
+      "status": "Status"
+    },
+    "bulk": {
+      "selected": "Wybrano: {{count}}",
+      "markPaid": "Oznacz jako zapłacone",
+      "delete": "Usuń"
+    },
+    "summary": {
+      "paid": "Zapłacone",
+      "outstanding": "Niezapłacone"
+    },
+    "emptySearch": {
+      "title": "Brak wyników",
+      "description": "Spróbuj inny numer lub nazwę klienta."
+    }
+  },
+  "editor": {
+    "titleNew": "Nowa faktura",
+    "titleEdit": "Faktura {{number}}",
+    "client": "Klient",
+    "clientPlaceholder": "Wybierz lub wyszukaj klienta…",
+    "clientNone": "Brak klienta",
+    "issueDate": "Data wystawienia",
+    "dueDate": "Termin płatności",
+    "documentLanguage": "Język dokumentu",
+    "currency": "Waluta",
+    "items": {
+      "title": "Pozycje",
+      "columns": {
+        "description": "Opis",
+        "quantity": "Ilość",
+        "unit": "Jedn.",
+        "unitPrice": "Cena jedn.",
+        "discount": "Rabat",
+        "total": "Suma"
+      },
+      "descriptionPlaceholder": "Opis pozycji",
+      "addLine": "Dodaj wiersz"
+    },
+    "discount": "Rabat",
+    "notes": "Uwagi",
+    "notesPlaceholder": "Uwagi widoczne na fakturze",
+    "terms": "Warunki",
+    "termsPlaceholder": "Warunki płatności i tekst stopki",
+    "saveDraft": "Zapisz szkic",
+    "markSent": "Zapisz i wyślij",
+    "markPaid": "Oznacz jako zapłacone"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "list": {
+    "title": "Clients",
+    "searchPlaceholder": "Search by name, company or code…",
+    "empty": {
+      "title": "No clients yet",
+      "description": "Add your first client to start invoicing.",
+      "action": "New client"
+    },
+    "emptySearch": {
+      "title": "Nothing matches",
+      "description": "Try a different name or code."
+    },
+    "columns": {
+      "name": "Name",
+      "company": "Company",
+      "code": "Code",
+      "email": "Email",
+      "language": "Doc. language",
+      "invoiceCount": "Invoices",
+      "total": "Total"
+    },
+    "showArchived": "Show archived"
+  },
+  "form": {
+    "titleNew": "New client",
+    "titleEdit": "Edit client",
+    "name": "Name",
+    "namePlaceholder": "Full name",
+    "company": "Company",
+    "companyPlaceholder": "Company name",
+    "clientType": "Client type",
+    "typeCompany": "Legal entity",
+    "typePerson": "Natural person",
+    "companyCode": "Company number",
+    "companyCodePlaceholder": "123456789",
+    "personalCode": "Personal code",
+    "personalCodePlaceholder": "38601010000",
+    "selfEmploymentId": "Self-employment ID",
+    "selfEmploymentIdPlaceholder": "IV-000000",
+    "vatCode": "VAT payer code",
+    "vatCodePlaceholder": "LT123456789",
+    "email": "Email",
+    "emailPlaceholder": "name@example.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+370…",
+    "address": "Address",
+    "addressPlaceholder": "Street, city, postal code",
+    "country": "Country",
+    "currency": "Currency",
+    "documentLanguage": "Document language",
+    "deleteAction": "Delete client",
+    "deleteTitle": "Delete client?",
+    "deleteDescription": "{{name}} will be removed from the client list. Its invoices stay, but lose the link to the client. This cannot be undone.",
+    "deleteLinkedInvoices": "Linked invoices: {{n}}",
+    "notes": "Notes",
+    "notesPlaceholder": "Internal notes (not shown on invoices)"
+  }
+}

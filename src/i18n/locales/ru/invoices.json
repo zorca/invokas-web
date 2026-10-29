@@ -1,0 +1,78 @@
+{
+  "list": {
+    "title": "Счета",
+    "searchPlaceholder": "Поиск по номеру или клиенту…",
+    "empty": {
+      "title": "Счетов пока нет",
+      "description": "Создайте первый счёт — он появится здесь.",
+      "action": "Новый счёт"
+    },
+    "filter": {
+      "all": "Все",
+      "draft": "Черновики",
+      "sent": "Выставлены",
+      "paid": "Оплачены",
+      "overdue": "Просрочены",
+      "cancelled": "Отменены",
+      "pending": "Ожидают",
+      "period": "Период",
+      "periodAll": "Всё время",
+      "periodMonth": "Последние 30 дней",
+      "periodQuarter": "Последние 3 месяца",
+      "periodYear": "Последние 12 месяцев"
+    },
+    "columns": {
+      "number": "Номер",
+      "client": "Клиент",
+      "issueDate": "Дата",
+      "dueDate": "Срок оплаты",
+      "amount": "Сумма",
+      "status": "Статус"
+    },
+    "bulk": {
+      "selected": "Выбрано: {{count}}",
+      "markPaid": "Отметить оплаченными",
+      "delete": "Удалить"
+    },
+    "summary": {
+      "paid": "Оплачено",
+      "outstanding": "Не оплачено"
+    },
+    "emptySearch": {
+      "title": "Ничего не найдено",
+      "description": "Попробуйте другой номер или имя клиента."
+    }
+  },
+  "editor": {
+    "titleNew": "Новый счёт",
+    "titleEdit": "Счёт {{number}}",
+    "client": "Клиент",
+    "clientPlaceholder": "Выберите или найдите клиента…",
+    "clientNone": "Без клиента",
+    "issueDate": "Дата выставления",
+    "dueDate": "Срок оплаты",
+    "documentLanguage": "Язык документа",
+    "currency": "Валюта",
+    "items": {
+      "title": "Позиции",
+      "columns": {
+        "description": "Описание",
+        "quantity": "Кол-во",
+        "unit": "Ед.",
+        "unitPrice": "Цена",
+        "discount": "Скидка",
+        "total": "Сумма"
+      },
+      "descriptionPlaceholder": "Описание позиции",
+      "addLine": "Добавить строку"
+    },
+    "discount": "Скидка",
+    "notes": "Примечания",
+    "notesPlaceholder": "Примечания, видимые в счёте",
+    "terms": "Условия",
+    "termsPlaceholder": "Условия оплаты и текст в подвале",
+    "saveDraft": "Сохранить черновик",
+    "markSent": "Сохранить и выставить",
+    "markPaid": "Отметить оплаченным"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "list": {
+    "title": "Sąskaitos",
+    "searchPlaceholder": "Ieškoti pagal numerį arba klientą…",
+    "empty": {
+      "title": "Sąskaitų dar nėra",
+      "description": "Sukurkite pirmąją sąskaitą — ji atsiras čia.",
+      "action": "Nauja sąskaita"
+    },
+    "filter": {
+      "all": "Visos",
+      "draft": "Juodraščiai",
+      "sent": "Išrašytos",
+      "paid": "Apmokėtos",
+      "overdue": "Pradelstos",
+      "cancelled": "Atšauktos",
+      "pending": "Laukiančios",
+      "period": "Laikotarpis",
+      "periodAll": "Visas laikotarpis",
+      "periodMonth": "Paskutinės 30 d.",
+      "periodQuarter": "Paskutiniai 3 mėn.",
+      "periodYear": "Paskutiniai 12 mėn."
+    },
+    "columns": {
+      "number": "Numeris",
+      "client": "Klientas",
+      "issueDate": "Data",
+      "dueDate": "Terminas",
+      "amount": "Suma",
+      "status": "Būsena"
+    },
+    "bulk": {
+      "selected": "Pasirinkta: {{count}}",
+      "markPaid": "Pažymėti apmokėtomis",
+      "delete": "Ištrinti"
+    },
+    "summary": {
+      "paid": "Apmokėta",
+      "outstanding": "Neapmokėta"
+    },
+    "emptySearch": {
+      "title": "Nieko nerasta",
+      "description": "Pabandykite kitą numerį arba kliento vardą."
+    }
+  },
+  "editor": {
+    "titleNew": "Nauja sąskaita",
+    "titleEdit": "Sąskaita {{number}}",
+    "client": "Klientas",
+    "clientPlaceholder": "Pasirinkite arba ieškokite kliento…",
+    "clientNone": "Be kliento",
+    "issueDate": "Išrašymo data",
+    "dueDate": "Mokėjimo terminas",
+    "documentLanguage": "Dokumento kalba",
+    "currency": "Valiuta",
+    "items": {
+      "title": "Pozicijos",
+      "columns": {
+        "description": "Aprašymas",
+        "quantity": "Kiekis",
+        "unit": "Vnt.",
+        "unitPrice": "Kaina",
+        "discount": "Nuolaida",
+        "total": "Suma"
+      },
+      "descriptionPlaceholder": "Pozicijos aprašymas",
+      "addLine": "Pridėti eilutę"
+    },
+    "discount": "Nuolaida",
+    "notes": "Pastabos",
+    "notesPlaceholder": "Pastabos, matomos sąskaitoje",
+    "terms": "Sąlygos",
+    "termsPlaceholder": "Apmokėjimo sąlygos ir poraštės tekstas",
+    "saveDraft": "Išsaugoti juodraštį",
+    "markSent": "Išsaugoti ir išrašyti",
+    "markPaid": "Pažymėti apmokėta"
+  }
+}

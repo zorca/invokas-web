@@ -1,0 +1,97 @@
+{
+  "title": "Настройки",
+  "tabs": {
+    "requisites": "Реквизиты",
+    "numbering": "Нумерация",
+    "amounts": "Суммы",
+    "language": "Язык",
+    "data": "Данные"
+  },
+  "requisites": {
+    "description": "Отображаются в каждом счёте.",
+    "companyName": "Название компании",
+    "companyNamePlaceholder": "Название вашего бизнеса",
+    "businessType": "Вид деятельности",
+    "businessTypePlaceholder": "Выберите тип…",
+    "selfEmploymentId": "Номер самозанятости",
+    "selfEmploymentIdPlaceholder": "Напр. 1234567",
+    "selfEmploymentIdHint": "Необязательно — укажите, если есть.",
+    "vatPayer": "Плательщик НДС",
+    "vatPayerHint": "Включите, если вы плательщик НДС.",
+    "address": "Адрес",
+    "addressPlaceholder": "Улица, город, индекс",
+    "taxId": "Код налогоплательщика",
+    "taxIdPlaceholder": "НДС / налоговый код",
+    "personName": "Имя, фамилия",
+    "personNamePlaceholder": "Имя и фамилия",
+    "personalCode": "Личный код",
+    "personalCodePlaceholder": "11 цифр",
+    "companyCode": "Код предприятия",
+    "companyCodePlaceholder": "9 цифр",
+    "vatCode": "Код плательщика НДС",
+    "vatCodePlaceholder": "Напр. LT123456789",
+    "bank": "Банк",
+    "bankPlaceholder": "Название банка",
+    "iban": "IBAN",
+    "ibanPlaceholder": "LT00 0000 0000 0000 0000",
+    "contacts": "Контакты",
+    "contactsPlaceholder": "Эл. почта, телефон, сайт",
+    "logo": "Логотип",
+    "logoChoose": "Выбрать изображение…",
+    "logoRemove": "Удалить",
+    "logoHint": "Показывается в шапке счёта. PNG или JPG, до 512 КБ."
+  },
+  "numbering": {
+    "description": "Номера присваиваются один раз и не переиспользуются.",
+    "maskLabel": "Маска номера",
+    "maskPlaceholder": "INV-{YYYY}-{NNNN}",
+    "maskHelp": "Токены: {YYYY} {YY} {MM} {DD} {NNNN} {N}",
+    "startNumber": "Стартовый номер",
+    "previewLabel": "Предпросмотр следующего номера",
+    "previewEmpty": "Введите маску, чтобы увидеть предпросмотр"
+  },
+  "amounts": {
+    "currency": "Валюта",
+    "defaultDiscount": "Скидка по умолчанию (%)",
+    "dueDays": "Срок оплаты (дней)",
+    "terms": "Условия по умолчанию",
+    "termsPlaceholder": "Условия оплаты в счетах",
+    "footer": "Подвал",
+    "footerPlaceholder": "Текст внизу PDF"
+  },
+  "language": {
+    "interfaceLanguage": "Язык интерфейса",
+    "defaultDocumentLanguage": "Язык документа по умолчанию",
+    "documentLanguageHint": "Используется для новых счетов, когда у клиента нет языка."
+  },
+  "data": {
+    "backup": "Резервная копия базы",
+    "backupHint": "Скачать резервную копию JSON. Данные хранятся только в этом браузере на этом устройстве: очистка данных сайта удалит их. Регулярно сохраняйте копию.",
+    "backupAction": "Создать копию…",
+    "restore": "Восстановление",
+    "restoreAction": "Восстановить из копии…",
+    "restoreHint": "Заменяет данные этого браузера копией JSON. Сначала сохраните текущую резервную копию.",
+    "dbPath": "Хранилище браузера",
+    "deleteAction": "Удалить базу данных",
+    "deleteTitle": "Удалить базу данных?",
+    "deleteDescription": "Будут безвозвратно удалены все счета, клиенты и настройки. Приложение перезапустится и покажет первичную настройку. Это действие нельзя отменить.",
+    "deleteConfirm": "Удалить"
+  },
+  "onboarding": {
+    "title": "Добро пожаловать в Invokas",
+    "subtitle": "Несколько шагов для быстрой настройки.",
+    "step1": {
+      "title": "Язык",
+      "description": "Выберите язык интерфейса."
+    },
+    "step2": {
+      "title": "Реквизиты",
+      "description": "Они появятся в каждом счёте."
+    },
+    "step3": {
+      "title": "Нумерация",
+      "description": "Как формируются номера счетов."
+    },
+    "finish": "Начать работу"
+  }
+}

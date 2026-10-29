@@ -1,0 +1,59 @@
+{
+  "list": {
+    "title": "Клиенты",
+    "searchPlaceholder": "Поиск по имени, организации или коду…",
+    "empty": {
+      "title": "Клиентов пока нет",
+      "description": "Добавьте первого клиента, чтобы начать выставлять счета.",
+      "action": "Новый клиент"
+    },
+    "emptySearch": {
+      "title": "Ничего не найдено",
+      "description": "Попробуйте другое имя или код."
+    },
+    "columns": {
+      "name": "Имя",
+      "company": "Организация",
+      "code": "Код",
+      "email": "Эл. почта",
+      "language": "Язык док.",
+      "invoiceCount": "Счетов",
+      "total": "Сумма"
+    },
+    "showArchived": "Показать архивные"
+  },
+  "form": {
+    "titleNew": "Новый клиент",
+    "titleEdit": "Изменить клиента",
+    "name": "Имя",
+    "namePlaceholder": "Полное имя",
+    "company": "Организация",
+    "companyPlaceholder": "Название организации",
+    "clientType": "Тип клиента",
+    "typeCompany": "Юридическое лицо",
+    "typePerson": "Физическое лицо",
+    "companyCode": "Код организации",
+    "companyCodePlaceholder": "123456789",
+    "personalCode": "Личный код",
+    "personalCodePlaceholder": "38601010000",
+    "selfEmploymentId": "Номер самозанятости",
+    "selfEmploymentIdPlaceholder": "IV-000000",
+    "vatCode": "Код плательщика НДС",
+    "vatCodePlaceholder": "LT123456789",
+    "email": "Эл. почта",
+    "emailPlaceholder": "name@example.com",
+    "phone": "Телефон",
+    "phonePlaceholder": "+370…",
+    "address": "Адрес",
+    "addressPlaceholder": "Улица, город, индекс",
+    "country": "Страна",
+    "currency": "Валюта",
+    "documentLanguage": "Язык документа",
+    "deleteAction": "Удалить клиента",
+    "deleteTitle": "Удалить клиента?",
+    "deleteDescription": "{{name}} будет удалён из справочника клиентов. Счета останутся, но потеряют связь с клиентом. Это действие нельзя отменить.",
+    "deleteLinkedInvoices": "Связанных счетов: {{n}}",
+    "notes": "Заметки",
+    "notesPlaceholder": "Внутренние заметки (не показываются в счетах)"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "list": {
+    "title": "Клієнти",
+    "searchPlaceholder": "Пошук за ім'ям, компанією або кодом…",
+    "empty": {
+      "title": "Клієнтів ще немає",
+      "description": "Додайте першого клієнта, щоб почати виставляти рахунки.",
+      "action": "Новий клієнт"
+    },
+    "emptySearch": {
+      "title": "Нічого не знайдено",
+      "description": "Спробуйте інше ім'я або код."
+    },
+    "columns": {
+      "name": "Ім'я",
+      "company": "Компанія",
+      "code": "Код",
+      "email": "Ел. пошта",
+      "language": "Мова док.",
+      "invoiceCount": "Рахунків",
+      "total": "Сума"
+    },
+    "showArchived": "Показати архівні"
+  },
+  "form": {
+    "titleNew": "Новий клієнт",
+    "titleEdit": "Редагувати клієнта",
+    "name": "Ім'я",
+    "namePlaceholder": "Повне ім'я",
+    "company": "Компанія",
+    "companyPlaceholder": "Назва компанії",
+    "clientType": "Тип клієнта",
+    "typeCompany": "Юридична особа",
+    "typePerson": "Фізична особа",
+    "companyCode": "Номер компанії",
+    "companyCodePlaceholder": "123456789",
+    "personalCode": "Особистий код",
+    "personalCodePlaceholder": "38601010000",
+    "selfEmploymentId": "Номер самозайнятості",
+    "selfEmploymentIdPlaceholder": "IV-000000",
+    "vatCode": "Код платника ПДВ",
+    "vatCodePlaceholder": "LT123456789",
+    "email": "Ел. пошта",
+    "emailPlaceholder": "name@example.com",
+    "phone": "Телефон",
+    "phonePlaceholder": "+380…",
+    "address": "Адреса",
+    "addressPlaceholder": "Вулиця, місто, поштовий індекс",
+    "country": "Країна",
+    "currency": "Валюта",
+    "documentLanguage": "Мова документа",
+    "deleteAction": "Видалити клієнта",
+    "deleteTitle": "Видалити клієнта?",
+    "deleteDescription": "{{name}} буде видалено зі списку клієнтів. Рахунки залишаться, але втратять зв'язок з клієнтом. Цю дію не можна скасувати.",
+    "deleteLinkedInvoices": "Пов'язаних рахунків: {{n}}",
+    "notes": "Примітки",
+    "notesPlaceholder": "Внутрішні примітки (не показуються в рахунках)"
+  }
+}

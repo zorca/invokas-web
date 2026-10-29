@@ -1,0 +1,97 @@
+{
+  "title": "Nustatymai",
+  "tabs": {
+    "requisites": "Rekvizitai",
+    "numbering": "Numeracija",
+    "amounts": "Sumos",
+    "language": "Kalba",
+    "data": "Duomenys"
+  },
+  "requisites": {
+    "description": "Rodomi kiekvienoje sąskaitoje.",
+    "companyName": "Įmonės pavadinimas",
+    "companyNamePlaceholder": "Jūsų verslo pavadinimas",
+    "businessType": "Veiklos rūšis",
+    "businessTypePlaceholder": "Pasirinkite tipą…",
+    "selfEmploymentId": "Individualios veiklos pažymos Nr.",
+    "selfEmploymentIdPlaceholder": "Pvz. 1234567",
+    "selfEmploymentIdHint": "Nurodykite pažymos numerį, jei jį turite.",
+    "vatPayer": "PVM mokėtojas",
+    "vatPayerHint": "Įjunkite, jei esate PVM mokėtojas.",
+    "address": "Adresas",
+    "addressPlaceholder": "Gatvė, miestas, pašto kodas",
+    "taxId": "Mokesčių kodas",
+    "taxIdPlaceholder": "PVM / mokesčių kodas",
+    "personName": "Vardas, pavardė",
+    "personNamePlaceholder": "Jūsų vardas ir pavardė",
+    "personalCode": "Asmens kodas",
+    "personalCodePlaceholder": "11 skaitmenų kodas",
+    "companyCode": "Įmonės kodas",
+    "companyCodePlaceholder": "9 skaitmenų kodas",
+    "vatCode": "PVM mokėtojo kodas",
+    "vatCodePlaceholder": "Pvz. LT123456789",
+    "bank": "Bankas",
+    "bankPlaceholder": "Banko pavadinimas",
+    "iban": "IBAN",
+    "ibanPlaceholder": "LT00 0000 0000 0000 0000",
+    "contacts": "Kontaktai",
+    "contactsPlaceholder": "El. paštas, telefonas, svetainė",
+    "logo": "Logotipas",
+    "logoChoose": "Pasirinkti paveikslėlį…",
+    "logoRemove": "Pašalinti",
+    "logoHint": "Rodomas sąskaitos antraštėje. PNG arba JPG, iki 512 KB."
+  },
+  "numbering": {
+    "description": "Numeriai priskiriami vieną kartą ir nebepanaudojami.",
+    "maskLabel": "Numerio šablonas",
+    "maskPlaceholder": "INV-{YYYY}-{NNNN}",
+    "maskHelp": "Žetonai: {YYYY} {YY} {MM} {DD} {NNNN} {N}",
+    "startNumber": "Pradinis numeris",
+    "previewLabel": "Kito numerio peržiūra",
+    "previewEmpty": "Įveskite šabloną, kad pamatytumėte peržiūrą"
+  },
+  "amounts": {
+    "currency": "Valiuta",
+    "defaultDiscount": "Numatytoji nuolaida (%)",
+    "dueDays": "Apmokėjimo terminas (dienomis)",
+    "terms": "Numatytosios sąlygos",
+    "termsPlaceholder": "Sąskaitose rodomos apmokėjimo sąlygos",
+    "footer": "Poraštė",
+    "footerPlaceholder": "Tekstas PDF apačioje"
+  },
+  "language": {
+    "interfaceLanguage": "Sąsajos kalba",
+    "defaultDocumentLanguage": "Numatytoji dokumento kalba",
+    "documentLanguageHint": "Naudojama naujoms sąskaitoms, kai klientas neturi nustatytos kalbos."
+  },
+  "data": {
+    "backup": "Duomenų bazės atsarginė kopija",
+    "backupHint": "Atsisiųskite JSON atsarginę kopiją. Duomenys saugomi tik šio įrenginio naršyklėje; išvalius svetainės duomenis jie bus ištrinti. Reguliariai darykite kopijas.",
+    "backupAction": "Sukurti kopiją…",
+    "restore": "Atkūrimas",
+    "restoreAction": "Atkurti iš kopijos…",
+    "restoreHint": "Pakeičia šios naršyklės duomenis JSON atsargine kopija. Pirmiausia išsaugokite dabartinę kopiją.",
+    "dbPath": "Naršyklės saugykla",
+    "deleteAction": "Ištrinti duomenų bazę",
+    "deleteTitle": "Ištrinti duomenų bazę?",
+    "deleteDescription": "Bus visam laikui ištrintos visos sąskaitos, klientai ir nustatymai. Programa bus paleista iš naujo ir parodys pradinę sąranką. Šio veiksmo atšaukti negalima.",
+    "deleteConfirm": "Ištrinti"
+  },
+  "onboarding": {
+    "title": "Sveiki atvykę į Invokas",
+    "subtitle": "Keli greiti žingsniai, kad viską susidėliotumėte.",
+    "step1": {
+      "title": "Kalba",
+      "description": "Pasirinkite sąsajos kalbą."
+    },
+    "step2": {
+      "title": "Rekvizitai",
+      "description": "Jie atsiras kiekvienoje sąskaitoje."
+    },
+    "step3": {
+      "title": "Numeracija",
+      "description": "Kaip formuojami sąskaitų numeriai."
+    },
+    "finish": "Pradėti naudoti Invokas"
+  }
+}

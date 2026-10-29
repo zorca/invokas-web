@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "invoices": "Faktury",
+    "clients": "Klienci",
+    "settings": "Ustawienia",
+    "collapse": "Zwiń menu",
+    "expand": "Rozwiń menu"
+  },
+  "actions": {
+    "create": "Utwórz",
+    "delete": "Usuń",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "archive": "Archiwizuj",
+    "restore": "Przywróć",
+    "exportPdf": "Eksportuj PDF",
+    "exportCsv": "Eksportuj CSV",
+    "duplicate": "Duplikuj",
+    "back": "Wstecz",
+    "next": "Dalej",
+    "print": "Drukuj"
+  },
+  "search": {
+    "placeholder": "Szukaj…"
+  },
+  "status": {
+    "draft": "Szkic",
+    "sent": "Wysłano",
+    "paid": "Zapłacono",
+    "overdue": "Zaległe",
+    "cancelled": "Anulowano",
+    "pending": "Oczekuje"
+  },
+  "language": {
+    "interface": "Język interfejsu"
+  },
+  "theme": {
+    "auto": "Auto",
+    "dark": "Ciemny",
+    "light": "Jasny"
+  },
+  "command": {
+    "placeholder": "Wpisz komendę lub szukaj…",
+    "empty": "Brak wyników",
+    "groups": {
+      "actions": "Akcje",
+      "navigate": "Przejdź do"
+    },
+    "createInvoice": "Utwórz faktura",
+    "createClient": "Utwórz klienta",
+    "goInvoices": "Przejdź do faktur",
+    "goClients": "Przejdź do klientów",
+    "goSettings": "Przejdź do ustawień",
+    "exportPdf": "Eksportuj bieżącą fakturę do PDF",
+    "toggleTheme": "Zmień motyw",
+    "switchLanguage": "Zmień język"
+  },
+  "errors": {
+    "generic": "Coś poszło nie tak.",
+    "database": "Nie udało się odczytać bazy danych.",
+    "file": "Nie udało się zapisać pliku.",
+    "save": "Nie udało się zapisać. Sprawdź wartości i spróbuj ponownie.",
+    "required": "To pole jest wymagane."
+  },
+  "notify": {
+    "saved": "Zapisano",
+    "created": "Utworzono",
+    "deleted": "Usunięto",
+    "archived": "Zarchiwizowano",
+    "restored": "Przywrócono",
+    "exported": "Wyeksportowano"
+  },
+  "statusbar": {
+    "invoices_one": "{{count}} faktura",
+    "invoices_few": "{{count}} faktury",
+    "invoices_many": "{{count}} faktur",
+    "invoices_other": "{{count}} faktury",
+    "dueToCollect": "Do zapłaty: {{amount}}"
+  },
+  "banner": {
+    "label": "Reklama",
+    "title": "Tu Twoja reklama",
+    "price": "Tylko 99 € rocznie",
+    "cta": "Zamów",
+    "toast": "Dziękujemy! Skontaktujemy się z Tobą."
+  }
+}

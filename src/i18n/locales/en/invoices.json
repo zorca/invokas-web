@@ -1,0 +1,78 @@
+{
+  "list": {
+    "title": "Invoices",
+    "searchPlaceholder": "Search by number or client…",
+    "empty": {
+      "title": "No invoices yet",
+      "description": "Create your first invoice and it will appear here.",
+      "action": "New invoice"
+    },
+    "filter": {
+      "all": "All",
+      "draft": "Draft",
+      "sent": "Sent",
+      "paid": "Paid",
+      "overdue": "Overdue",
+      "cancelled": "Cancelled",
+      "pending": "Pending",
+      "period": "Period",
+      "periodAll": "All time",
+      "periodMonth": "Last 30 days",
+      "periodQuarter": "Last 3 months",
+      "periodYear": "Last 12 months"
+    },
+    "columns": {
+      "number": "Number",
+      "client": "Client",
+      "issueDate": "Issue date",
+      "dueDate": "Due date",
+      "amount": "Amount",
+      "status": "Status"
+    },
+    "bulk": {
+      "selected": "{{count}} selected",
+      "markPaid": "Mark paid",
+      "delete": "Delete"
+    },
+    "summary": {
+      "paid": "Paid",
+      "outstanding": "Outstanding"
+    },
+    "emptySearch": {
+      "title": "Nothing matches",
+      "description": "Try a different number or client name."
+    }
+  },
+  "editor": {
+    "titleNew": "New invoice",
+    "titleEdit": "Invoice {{number}}",
+    "client": "Client",
+    "clientPlaceholder": "Select or search a client…",
+    "clientNone": "No client",
+    "issueDate": "Issue date",
+    "dueDate": "Due date",
+    "documentLanguage": "Document language",
+    "currency": "Currency",
+    "items": {
+      "title": "Items",
+      "columns": {
+        "description": "Description",
+        "quantity": "Qty",
+        "unit": "Unit",
+        "unitPrice": "Unit price",
+        "discount": "Discount",
+        "total": "Total"
+      },
+      "descriptionPlaceholder": "Description of the item",
+      "addLine": "Add line"
+    },
+    "discount": "Discount",
+    "notes": "Notes",
+    "notesPlaceholder": "Notes visible on the invoice",
+    "terms": "Terms",
+    "termsPlaceholder": "Payment terms and footer text",
+    "saveDraft": "Save draft",
+    "markSent": "Save and send",
+    "markPaid": "Mark paid"
+  }
+}

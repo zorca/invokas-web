@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "invoices": "Счета",
+    "clients": "Клиенты",
+    "settings": "Настройки",
+    "collapse": "Свернуть меню",
+    "expand": "Развернуть меню"
+  },
+  "actions": {
+    "create": "Создать",
+    "delete": "Удалить",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "archive": "В архив",
+    "restore": "Восстановить",
+    "exportPdf": "Экспорт в PDF",
+    "exportCsv": "Экспорт в CSV",
+    "duplicate": "Копировать",
+    "back": "Назад",
+    "next": "Далее",
+    "print": "Печать"
+  },
+  "search": {
+    "placeholder": "Поиск…"
+  },
+  "status": {
+    "draft": "Черновик",
+    "sent": "Выставлен",
+    "paid": "Оплачен",
+    "overdue": "Просрочен",
+    "cancelled": "Отменён",
+    "pending": "Ожидает"
+  },
+  "language": {
+    "interface": "Язык интерфейса"
+  },
+  "theme": {
+    "auto": "Авто",
+    "dark": "Тёмная",
+    "light": "Светлая"
+  },
+  "command": {
+    "placeholder": "Введите команду или ищите…",
+    "empty": "Ничего не найдено",
+    "groups": {
+      "actions": "Действия",
+      "navigate": "Перейти"
+    },
+    "createInvoice": "Создать счёт",
+    "createClient": "Создать клиента",
+    "goInvoices": "Перейти к счетам",
+    "goClients": "Перейти к клиентам",
+    "goSettings": "Перейти к настройкам",
+    "exportPdf": "Экспорт текущего счёта в PDF",
+    "toggleTheme": "Переключить тему",
+    "switchLanguage": "Переключить язык"
+  },
+  "errors": {
+    "generic": "Что-то пошло не так.",
+    "database": "Не удалось прочитать базу данных.",
+    "file": "Не удалось записать файл.",
+    "save": "Не удалось сохранить. Проверьте значения и попробуйте снова.",
+    "required": "Это поле обязательно."
+  },
+  "notify": {
+    "saved": "Сохранено",
+    "created": "Создано",
+    "deleted": "Удалено",
+    "archived": "В архиве",
+    "restored": "Восстановлено",
+    "exported": "Экспортировано"
+  },
+  "statusbar": {
+    "invoices_one": "{{count}} счёт",
+    "invoices_few": "{{count}} счёта",
+    "invoices_many": "{{count}} счетов",
+    "invoices_other": "{{count}} счёта",
+    "dueToCollect": "К оплате: {{amount}}"
+  },
+  "banner": {
+    "label": "Реклама",
+    "title": "Здесь ваша реклама",
+    "price": "Всего 99 € в год",
+    "cta": "Заказать",
+    "toast": "Спасибо! Мы свяжемся с вами."
+  }
+}

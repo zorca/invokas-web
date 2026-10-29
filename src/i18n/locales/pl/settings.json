@@ -1,0 +1,97 @@
+{
+  "title": "Ustawienia",
+  "tabs": {
+    "requisites": "Dane firmy",
+    "numbering": "Numeracja",
+    "amounts": "Kwoty",
+    "language": "Język",
+    "data": "Dane"
+  },
+  "requisites": {
+    "description": "Widoczne na każdej fakturze.",
+    "companyName": "Nazwa firmy",
+    "companyNamePlaceholder": "Nazwa Twojej firmy",
+    "businessType": "Rodzaj działalności",
+    "businessTypePlaceholder": "Wybierz typ…",
+    "selfEmploymentId": "Numer samozatrudnienia",
+    "selfEmploymentIdPlaceholder": "Np. 1234567",
+    "selfEmploymentIdHint": "Opcjonalne — podaj, jeśli posiadasz.",
+    "vatPayer": "Podatnik VAT",
+    "vatPayerHint": "Włącz, jeśli jesteś podatnikiem VAT.",
+    "address": "Adres",
+    "addressPlaceholder": "Ulica, miasto, kod pocztowy",
+    "taxId": "NIP",
+    "taxIdPlaceholder": "VAT / NIP",
+    "personName": "Imię i nazwisko",
+    "personNamePlaceholder": "Twoje imię i nazwisko",
+    "personalCode": "Kod osobisty",
+    "personalCodePlaceholder": "11 cyfr",
+    "companyCode": "Kod firmy",
+    "companyCodePlaceholder": "9 cyfr",
+    "vatCode": "Kod podatnika VAT",
+    "vatCodePlaceholder": "Np. LT123456789",
+    "bank": "Bank",
+    "bankPlaceholder": "Nazwa banku",
+    "iban": "IBAN",
+    "ibanPlaceholder": "LT00 0000 0000 0000 0000",
+    "contacts": "Kontakt",
+    "contactsPlaceholder": "E-mail, telefon, strona",
+    "logo": "Logo",
+    "logoChoose": "Wybierz obraz…",
+    "logoRemove": "Usuń",
+    "logoHint": "Widoczne w nagłówku faktury. PNG lub JPG, do 512 KB."
+  },
+  "numbering": {
+    "description": "Numery są przypisywane raz i nie są ponownie używane.",
+    "maskLabel": "Maska numeru",
+    "maskPlaceholder": "INV-{YYYY}-{NNNN}",
+    "maskHelp": "Tokeny: {YYYY} {YY} {MM} {DD} {NNNN} {N}",
+    "startNumber": "Numer początkowy",
+    "previewLabel": "Podgląd następnego numeru",
+    "previewEmpty": "Wpisz maskę, aby zobaczyć podgląd"
+  },
+  "amounts": {
+    "currency": "Waluta",
+    "defaultDiscount": "Domyślny rabat (%)",
+    "dueDays": "Termin płatności (dni)",
+    "terms": "Domyślne warunki",
+    "termsPlaceholder": "Warunki płatności na fakturach",
+    "footer": "Stopka",
+    "footerPlaceholder": "Tekst na dole PDF"
+  },
+  "language": {
+    "interfaceLanguage": "Język interfejsu",
+    "defaultDocumentLanguage": "Domyślny język dokumentu",
+    "documentLanguageHint": "Używany dla nowych faktur, gdy klient nie ma ustawionego języka."
+  },
+  "data": {
+    "backup": "Kopia zapasowa bazy danych",
+    "backupHint": "Pobierz kopię JSON. Dane są przechowywane tylko w tej przeglądarce na tym urządzeniu; wyczyszczenie danych witryny je usunie. Regularnie twórz kopie.",
+    "backupAction": "Utwórz kopię…",
+    "restore": "Przywracanie",
+    "restoreAction": "Przywróć z kopii…",
+    "restoreHint": "Zastępuje dane przeglądarki kopią JSON. Najpierw zapisz bieżącą kopię.",
+    "dbPath": "Pamięć przeglądarki",
+    "deleteAction": "Usuń bazę danych",
+    "deleteTitle": "Usunąć bazę danych?",
+    "deleteDescription": "Wszystkie faktury, klienci i ustawienia zostaną trwale usunięte. Aplikacja uruchomi się ponownie i wyświetli konfigurację początkową. Tej operacji nie można odwrócić.",
+    "deleteConfirm": "Usuń"
+  },
+  "onboarding": {
+    "title": "Witamy w Invokas",
+    "subtitle": "Kilka szybkich kroków, aby wszystko skonfigurować.",
+    "step1": {
+      "title": "Język",
+      "description": "Wybierz język interfejsu."
+    },
+    "step2": {
+      "title": "Dane firmy",
+      "description": "Będą widoczne na każdej fakturze."
+    },
+    "step3": {
+      "title": "Numeracja",
+      "description": "Jak generowane są numery faktur."
+    },
+    "finish": "Zacznij korzystać z Invokas"
+  }
+}

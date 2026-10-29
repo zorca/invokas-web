@@ -1,0 +1,78 @@
+{
+  "list": {
+    "title": "Рахунки",
+    "searchPlaceholder": "Пошук за номером або клієнтом…",
+    "empty": {
+      "title": "Рахунків ще немає",
+      "description": "Створіть перший рахунок — він з'явиться тут.",
+      "action": "Новий рахунок"
+    },
+    "filter": {
+      "all": "Усі",
+      "draft": "Чернетки",
+      "sent": "Виставлені",
+      "paid": "Оплачені",
+      "overdue": "Просрочені",
+      "cancelled": "Скасовані",
+      "pending": "Очікують",
+      "period": "Період",
+      "periodAll": "Увесь час",
+      "periodMonth": "Останні 30 днів",
+      "periodQuarter": "Останні 3 місяці",
+      "periodYear": "Останні 12 місяців"
+    },
+    "columns": {
+      "number": "Номер",
+      "client": "Клієнт",
+      "issueDate": "Дата",
+      "dueDate": "Термін оплати",
+      "amount": "Сума",
+      "status": "Статус"
+    },
+    "bulk": {
+      "selected": "Вибрано: {{count}}",
+      "markPaid": "Позначити оплаченими",
+      "delete": "Видалити"
+    },
+    "summary": {
+      "paid": "Сплачено",
+      "outstanding": "Не сплачено"
+    },
+    "emptySearch": {
+      "title": "Нічого не знайдено",
+      "description": "Спробуйте інший номер або ім'я клієнта."
+    }
+  },
+  "editor": {
+    "titleNew": "Новий рахунок",
+    "titleEdit": "Рахунок {{number}}",
+    "client": "Клієнт",
+    "clientPlaceholder": "Виберіть або знайдіть клієнта…",
+    "clientNone": "Без клієнта",
+    "issueDate": "Дата виставлення",
+    "dueDate": "Термін оплати",
+    "documentLanguage": "Мова документа",
+    "currency": "Валюта",
+    "items": {
+      "title": "Позиції",
+      "columns": {
+        "description": "Опис",
+        "quantity": "Кіл-сть",
+        "unit": "Од.",
+        "unitPrice": "Ціна",
+        "discount": "Знижка",
+        "total": "Сума"
+      },
+      "descriptionPlaceholder": "Опис позиції",
+      "addLine": "Додати рядок"
+    },
+    "discount": "Знижка",
+    "notes": "Примітки",
+    "notesPlaceholder": "Примітки, видимі в рахунку",
+    "terms": "Умови",
+    "termsPlaceholder": "Умови оплати та текст у підвалі",
+    "saveDraft": "Зберегти чернетку",
+    "markSent": "Зберегти і виставити",
+    "markPaid": "Позначити оплаченим"
+  }
+}

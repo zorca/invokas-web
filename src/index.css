@@ -1,0 +1,326 @@
+@import "tailwindcss" source(none);
+@import "tw-animate-css";
+@import "./styles/shadcn.css";
+
+/* Only the UI sources are scanned. Tailwind's automatic detection also reads plain text —
+ * README, .github/workflows/*.yml — where class-like words leak into the shipped
+ * stylesheet as phantom utilities (the CI workflow alone added 27 bytes of them). */
+@source "../index.html";
+@source "../src/**/*.{ts,tsx}";
+
+/* Inter Variable — local, no CDN. Covers latin, latin-ext (liet. diacritics) and cyrillic. */
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("./assets/fonts/InterVariable.ttf") format("truetype");
+}
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  /* Font */
+  --font-sans: "Inter Variable", "Segoe UI", system-ui, sans-serif;
+  --font-weight-medium: 510;
+  --font-weight-semibold: 590;
+
+  /* Text scale (dense engineering UI) */
+  --text-2xs: 11px;
+  --text-2xs--line-height: 16px;
+  --text-xs: 12px;
+  --text-xs--line-height: 16px;
+  --text-sm: 13px;
+  --text-sm--line-height: 20px;
+  --text-base: 14px;
+  --text-base--line-height: 20px;
+  --text-lg: 15px;
+  --text-lg--line-height: 22px;
+  --text-xl: 17px;
+  --text-xl--line-height: 24px;
+  --text-xl--letter-spacing: -0.02em;
+  --text-2xl: 21px;
+  --text-2xl--line-height: 28px;
+  --text-2xl--letter-spacing: -0.02em;
+
+  /* Radius scale: 6 inputs/buttons/chips, 8 cards/panels, 12 modals (hard cap). */
+  --radius: 8px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 12px;
+  --radius-3xl: 12px;
+  --radius-4xl: 12px;
+
+  /* shadcn semantic color mappings */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  /* Custom elevation ladder */
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-surface-4: var(--surface-4);
+  --color-surface-5: var(--surface-5);
+  --color-surface-6: var(--surface-6);
+
+  /* Custom text ladder */
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-subtle: var(--text-subtle);
+
+  /* Custom border ladder */
+  --color-border-hairline: var(--border-hairline);
+  --color-border-strong: var(--border-strong);
+  --color-border-input: var(--border-input);
+  --color-border-row: var(--border-row);
+  --color-border-faint: var(--border-faint);
+
+  /* Brand (constant across themes) */
+  --color-accent-indigo: #5e6ad2;
+  --color-accent-violet: #7170ff;
+
+  /* Advertiser brand — Virtuvės Pasaulis teal (from virtuvespasaulis.lt) */
+  --color-vp: #067681;
+  --color-vp-soft: #4dc1cb;
+  --color-vp-dark: #055d66;
+
+  /* Invoice status colors (constant across themes) */
+  --color-status-draft: #8a8f98;
+  --color-status-sent: #3caefe;
+  --color-status-paid: #27a644;
+  --color-status-overdue: #fc7840;
+  --color-status-cancelled: #eb5757;
+  --color-status-pending: #f0bf00;
+
+  /* Popover shadow */
+  --shadow-popover: var(--popover-shadow);
+}
+
+/* ============================ LIGHT ============================ */
+:root {
+  --background: #ffffff;
+  --foreground: #18181b;
+  --card: #fafafa;
+  --card-foreground: #18181b;
+  --popover: #ffffff;
+  --popover-foreground: #18181b;
+  --primary: #5e6ad2;
+  --primary-foreground: #ffffff;
+  --secondary: #f4f4f5;
+  --secondary-foreground: #3f3f46;
+  --muted: #f4f4f5;
+  --muted-foreground: #71717a;
+  --accent: #f0f0f1;
+  --accent-foreground: #18181b;
+  --destructive: #eb5757;
+  --destructive-foreground: #ffffff;
+  --border: #e4e4e7;
+  --input: #d4d4d8;
+  --ring: #5e6ad2;
+
+  --sidebar: #fafafa;
+  --sidebar-foreground: #3f3f46;
+  --sidebar-primary: #5e6ad2;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f0f0f1;
+  --sidebar-accent-foreground: #18181b;
+  --sidebar-border: #e4e4e7;
+  --sidebar-ring: #5e6ad2;
+
+  --chart-1: #5e6ad2;
+  --chart-2: #3caefe;
+  --chart-3: #27a644;
+  --chart-4: #fc7840;
+  --chart-5: #eb5757;
+
+  --surface-1: #fafafa;
+  --surface-2: #f4f4f5;
+  --surface-3: #f0f0f1;
+  --surface-4: #ffffff;
+  --surface-5: #f0f0f1;
+  --surface-6: #e4e4e7;
+
+  --text-primary: #18181b;
+  --text-secondary: #3f3f46;
+  --text-muted: #71717a;
+  --text-subtle: #a1a1aa;
+
+  --border-hairline: #e4e4e7;
+  --border-strong: #d4d4d8;
+  --border-input: #d4d4d8;
+  --border-row: #e4e4e7;
+  --border-faint: rgba(0, 0, 0, 0.06);
+
+  --popover-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* ============================ DARK (default) ============================ */
+.dark {
+  --background: #08090a;
+  --foreground: #f7f8f8;
+  --card: #0f1011;
+  --card-foreground: #f7f8f8;
+  --popover: #1c1c1f;
+  --popover-foreground: #f7f8f8;
+  --primary: #5e6ad2;
+  --primary-foreground: #ffffff;
+  --secondary: #141516;
+  --secondary-foreground: #d0d6e0;
+  --muted: #141516;
+  --muted-foreground: #8a8f98;
+  --accent: #232326;
+  --accent-foreground: #f7f8f8;
+  --destructive: #eb5757;
+  --destructive-foreground: #ffffff;
+  --border: #23252a;
+  --input: #3e3e44;
+  --ring: #5e6ad2;
+
+  --sidebar: #0f1011;
+  --sidebar-foreground: #d0d6e0;
+  --sidebar-primary: #5e6ad2;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #232326;
+  --sidebar-accent-foreground: #f7f8f8;
+  --sidebar-border: rgba(255, 255, 255, 0.05);
+  --sidebar-ring: #5e6ad2;
+
+  --chart-1: #5e6ad2;
+  --chart-2: #3caefe;
+  --chart-3: #27a644;
+  --chart-4: #fc7840;
+  --chart-5: #eb5757;
+
+  --surface-1: #0f1011;
+  --surface-2: #141516;
+  --surface-3: #191a1b;
+  --surface-4: #1c1c1f;
+  --surface-5: #232326;
+  --surface-6: #28282c;
+
+  --text-primary: #f7f8f8;
+  --text-secondary: #d0d6e0;
+  --text-muted: #8a8f98;
+  --text-subtle: #62666d;
+
+  --border-hairline: #23252a;
+  --border-strong: #34343a;
+  --border-input: #3e3e44;
+  --border-row: #37393a;
+  --border-faint: rgba(255, 255, 255, 0.05);
+
+  --popover-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--primary) 30%, transparent);
+  }
+}
+
+/* Print: show only the invoice sheet. */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .invoice-sheet,
+  .invoice-sheet * {
+    visibility: visible;
+  }
+  .invoice-sheet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+/* Keep the invoice readable at its document size; pan only its preview on phones. */
+@media screen and (max-width: 1023px) {
+  .invoice-preview-pane > div {
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  .invoice-preview-pane .invoice-sheet {
+    min-width: 560px;
+    margin-inline: auto;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  /* The shared client form is also used elsewhere: scope this mobile layout to its page. */
+  .client-editor form .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .client-editor form .grid > * {
+    min-width: 0;
+  }
+  /* Avoid iOS auto-zoom while retaining the compact desktop type scale. */
+  input, textarea, [role="combobox"] {
+    font-size: 16px;
+  }
+  button, [role="combobox"] {
+    min-height: 36px;
+  }
+  [data-slot="dialog-content"] {
+    max-height: calc(100dvh - 2rem);
+    overflow-y: auto;
+  }
+}
+
+/* Virtuvės Pasaulis logo mark — masked so it takes the surrounding text colour. */
+.vp-mark {
+  display: inline-block;
+  flex: none;
+  background-color: currentColor;
+  -webkit-mask: url("./assets/virtuvespasaulis-mark.svg") center / contain no-repeat;
+  mask: url("./assets/virtuvespasaulis-mark.svg") center / contain no-repeat;
+}

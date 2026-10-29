@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="lt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invokas</title>
+    <script>
+      // Apply the persisted theme before the app renders to avoid a flash.
+      (function () {
+        try {
+          var theme = localStorage.getItem("invokas:theme") || "system";
+          var dark = theme === "system"
+            ? window.matchMedia("(prefers-color-scheme: dark)").matches
+            : theme !== "light";
+          if (dark) {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (e) {
+          if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.documentElement.classList.add("dark");
+          }
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (location.protocol !== "https:" && location.protocol !== "http:") {
+        document.getElementById("root").textContent = "Invokas работает только на сайте. Скачанная страница не поддерживается — откройте оригинальный сайт.";
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

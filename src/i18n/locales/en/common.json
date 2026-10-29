@@ -1,0 +1,85 @@
+{
+  "nav": {
+    "invoices": "Invoices",
+    "clients": "Clients",
+    "settings": "Settings",
+    "collapse": "Collapse sidebar",
+    "expand": "Expand sidebar"
+  },
+  "actions": {
+    "create": "Create",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "archive": "Archive",
+    "restore": "Restore",
+    "exportPdf": "Export PDF",
+    "exportCsv": "Export CSV",
+    "duplicate": "Duplicate",
+    "back": "Back",
+    "next": "Next",
+    "print": "Print"
+  },
+  "search": {
+    "placeholder": "Search…"
+  },
+  "status": {
+    "draft": "Draft",
+    "sent": "Sent",
+    "paid": "Paid",
+    "overdue": "Overdue",
+    "cancelled": "Cancelled",
+    "pending": "Pending"
+  },
+  "language": {
+    "interface": "Interface language"
+  },
+  "theme": {
+    "auto": "Auto",
+    "dark": "Dark",
+    "light": "Light"
+  },
+  "command": {
+    "placeholder": "Type a command or search…",
+    "empty": "No results",
+    "groups": {
+      "actions": "Actions",
+      "navigate": "Go to"
+    },
+    "createInvoice": "Create invoice",
+    "createClient": "Create client",
+    "goInvoices": "Go to Invoices",
+    "goClients": "Go to Clients",
+    "goSettings": "Go to Settings",
+    "exportPdf": "Export current invoice to PDF",
+    "toggleTheme": "Toggle theme",
+    "switchLanguage": "Switch language"
+  },
+  "errors": {
+    "generic": "Something went wrong.",
+    "database": "Could not read the database.",
+    "file": "Could not write the file.",
+    "save": "Could not save. Check the values and try again.",
+    "required": "This field is required."
+  },
+  "notify": {
+    "saved": "Saved",
+    "created": "Created",
+    "deleted": "Deleted",
+    "archived": "Archived",
+    "restored": "Restored",
+    "exported": "Exported"
+  },
+  "statusbar": {
+    "invoices_one": "{{count}} invoice",
+    "invoices_other": "{{count}} invoices",
+    "dueToCollect": "{{amount}} to collect"
+  },
+  "banner": {
+    "label": "Ad",
+    "title": "Your ad here",
+    "price": "Only €99 per year",
+    "cta": "Order",
+    "toast": "Thanks! We'll be in touch."
+  }
+}

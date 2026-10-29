@@ -1,0 +1,97 @@
+{
+  "title": "Settings",
+  "tabs": {
+    "requisites": "Requisites",
+    "numbering": "Numbering",
+    "amounts": "Amounts",
+    "language": "Language",
+    "data": "Data"
+  },
+  "requisites": {
+    "description": "Shown on every invoice.",
+    "companyName": "Company name",
+    "companyNamePlaceholder": "Your business name",
+    "businessType": "Type of activity",
+    "businessTypePlaceholder": "Select type…",
+    "selfEmploymentId": "Self-employment ID",
+    "selfEmploymentIdPlaceholder": "e.g. 1234567",
+    "selfEmploymentIdHint": "Optional — add it if you have one.",
+    "vatPayer": "VAT payer",
+    "vatPayerHint": "Enable if you are VAT registered.",
+    "address": "Address",
+    "addressPlaceholder": "Street, city, postal code",
+    "taxId": "Tax ID",
+    "taxIdPlaceholder": "VAT / tax code",
+    "personName": "Full name",
+    "personNamePlaceholder": "Your first and last name",
+    "personalCode": "Personal code",
+    "personalCodePlaceholder": "11-digit code",
+    "companyCode": "Company code",
+    "companyCodePlaceholder": "9-digit code",
+    "vatCode": "VAT payer code",
+    "vatCodePlaceholder": "e.g. LT123456789",
+    "bank": "Bank",
+    "bankPlaceholder": "Bank name",
+    "iban": "IBAN",
+    "ibanPlaceholder": "LT00 0000 0000 0000 0000",
+    "contacts": "Contacts",
+    "contactsPlaceholder": "Email, phone, website",
+    "logo": "Logo",
+    "logoChoose": "Choose image…",
+    "logoRemove": "Remove",
+    "logoHint": "Shown in the invoice header. PNG or JPG, up to 512 KB."
+  },
+  "numbering": {
+    "description": "Numbers are assigned once and never reused.",
+    "maskLabel": "Number mask",
+    "maskPlaceholder": "INV-{YYYY}-{NNNN}",
+    "maskHelp": "Tokens: {YYYY} {YY} {MM} {DD} {NNNN} {N}",
+    "startNumber": "Start number",
+    "previewLabel": "Next number preview",
+    "previewEmpty": "Enter a mask to see the preview"
+  },
+  "amounts": {
+    "currency": "Currency",
+    "defaultDiscount": "Default discount (%)",
+    "dueDays": "Payment term (days)",
+    "terms": "Default terms",
+    "termsPlaceholder": "Payment terms shown on invoices",
+    "footer": "Footer",
+    "footerPlaceholder": "Text shown at the bottom of the PDF"
+  },
+  "language": {
+    "interfaceLanguage": "Interface language",
+    "defaultDocumentLanguage": "Default document language",
+    "documentLanguageHint": "Used for new invoices when a client has no language set."
+  },
+  "data": {
+    "backup": "Back up database",
+    "backupHint": "Download a JSON backup. Data lives only in this browser on this device; clearing site data deletes it. Back up regularly.",
+    "backupAction": "Create backup…",
+    "restore": "Restore",
+    "restoreAction": "Restore from backup…",
+    "restoreHint": "Replace this browser’s data with a JSON backup. Back up current data first.",
+    "dbPath": "Browser storage",
+    "deleteAction": "Delete database",
+    "deleteTitle": "Delete database?",
+    "deleteDescription": "This permanently deletes all invoices, clients and settings. The app will restart and show the first-run setup. This cannot be undone.",
+    "deleteConfirm": "Delete database"
+  },
+  "onboarding": {
+    "title": "Welcome to Invokas",
+    "subtitle": "A few quick steps to set things up.",
+    "step1": {
+      "title": "Language",
+      "description": "Choose the interface language."
+    },
+    "step2": {
+      "title": "Your details",
+      "description": "These appear on every invoice."
+    },
+    "step3": {
+      "title": "Numbering",
+      "description": "How invoice numbers are generated."
+    },
+    "finish": "Start using Invokas"
+  }
+}
